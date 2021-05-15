@@ -4,7 +4,7 @@ subtitle: Next.js and Tailwind CSS is just so powerful
 date: 2021-05-14T11:53:15.545Z
 ---
 
-Hi, welcome to my blog! If you didn't check out my profile yet, visit here. Anyway, this is my first blog post, and I plan to constantly upload my thoughts here. I think a blog is the perfect place to display my interests, opinions, and projects. Moreover, it's always a good thing to keep track of these in one place, because they will eventually accumulate and elevate my personal brand. Coding my personal blog from scratch was always one of my dreams.
+Hi, welcome to my blog. If you didn't check out my profile yet, visit here. Anyway, this is my first blog post, and I plan to constantly upload my thoughts here. I think a blog is the perfect place to display my interests, opinions, and projects. Moreover, it's always a good thing to keep track of these in one place, because they will eventually accumulate and elevate my personal brand. Coding my personal blog from scratch was always one of my dreams.
 
 Although I've been coding for about 4 years, I was unfamiliar with web programming. After I decided to get some hands-on-experience in this field, I studied various languages and frameworks, including HTML, CSS, JavaScript, React, and Django, mainly through YouTube videos. I didn't want to study any backend services since my only purpose was to create a personal blog.
 
