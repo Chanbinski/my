@@ -11,7 +11,7 @@ export default function Home() {
       </Head>
       <div className="flex flex-col h-screen items-center justify-center space-y-5 -mt-10">
         <img
-          src="/headerImage.jpg"
+          src="/headerImage.png"
           alt={name}
           className="justify-center w-44 rounded-full"        
         />
