@@ -8,7 +8,7 @@ export default function Home({ posts }) {
 	return (
 		<div>
 			<Head>
-        		<title>Blog</title>
+        		<title>Chanbin's Blog</title>
       		</Head>
 			<div className="flex flex-col h-screen items-center pt-20 space-y-6">
 				{posts.map((item) => (
