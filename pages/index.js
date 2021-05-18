@@ -7,7 +7,7 @@ export default function Home() {
     <div>
       <div className="flex flex-col h-screen items-center justify-center space-y-5 -mt-10">
         <img
-          src="static/images/headerImage.jpg"
+          src="/headerImage.png"
           alt={name}
           className="justify-center w-44 rounded-full"        
         />
