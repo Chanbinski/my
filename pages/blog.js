@@ -6,11 +6,16 @@ import { getAllPosts } from "../lib/data";
 
 export default function Home({ posts }) {
 	return (
-		  <div className="flex flex-col h-screen items-center pt-20 space-y-6">
-			  {posts.map((item) => (
-				  <BlogListItem key={item.slug} {...item} />
-			  ))}
-		  </div>
+		<div>
+			<Head>
+        		<title>Blog</title>
+      		</Head>
+			<div className="flex flex-col h-screen items-center pt-20 space-y-6">
+				{posts.map((item) => (
+					<BlogListItem key={item.slug} {...item} />
+				))}
+		  	</div>
+		</div>
 	);
   }
 

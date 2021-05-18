@@ -1,13 +1,17 @@
 import Link from "next/link";
+import Head from "next/head"
 
 const name = "Chanbin Park"; 
 
 export default function Home() {
   return (
     <div>
+      <Head>
+        <title>Chanbin Park</title>
+      </Head>
       <div className="flex flex-col h-screen items-center justify-center space-y-5 -mt-10">
         <img
-          src="https://chanbinpark.com/headerImage.jpg"
+          src="/headerImage.jpg"
           alt={name}
           className="justify-center w-44 rounded-full"        
         />

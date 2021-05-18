@@ -8,8 +8,7 @@ function MyApp({ Component, pageProps }) {
   return (
   <div>
     <Head>
-        <title>Chanbin Park</title>
-        <link rel="icon" href="/favicon.png" type="image/x-icon"/>
+        <link rel="icon" href="/favicon.png" />
     </Head>
 
     <Navbar />
