@@ -9,7 +9,7 @@ function MyApp({ Component, pageProps }) {
   <div>
     <Head>
         <title>Chanbin Park</title>
-        <link rel="icon" href="/favicon.png" />
+        <link rel="icon" href="/favicon.png" type="image/x-icon"/>
     </Head>
 
     <Navbar />
