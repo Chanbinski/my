@@ -18,7 +18,7 @@ export default function Home() {
         <h1 className="text-4xl my-4 font-bold text-center">{name}</h1>
         <div className="w-4/5 sm:w-2/5">
           Hi, I'm a student based in South Korea. This fall, I'm heading to UC Berkeley to study Computer Science. 
-          I'm a basketball lover, stationery addict, and an Apple Fanatic! I'm on <a href="https://www.instagram.com/jjangu1015/">instagram</a> and <a href="https://www.linkedin.com/in/chanbin-park-4b795920b/">linkedin</a>. 
+          I'm a basketball lover, stationary addict, and an Apple Fanatic! I'm on <a href="https://www.instagram.com/jjangu1015/">instagram</a> and <a href="https://www.linkedin.com/in/chanbin-park-4b795920b/">linkedin</a>. 
           I just started my <Link href="/blog"><a>blog</a></Link>, which I will be renewing it constantly. Below are some of the features I want to add.
 
           <div className="pt-6">
