@@ -10,7 +10,7 @@ export default function Home({ posts }) {
 			<Head>
         		<title>Chanbin's Blog</title>
       		</Head>
-			<div className="flex flex-col h-screen items-center pt-20 space-y-6">
+			<div className="h-screen grid grid-cols-3 lg:grid-cols-5 p-14">
 				{posts.map((item) => (
 					<BlogListItem key={item.slug} {...item} />
 				))}
@@ -33,21 +33,12 @@ export async function getStaticProps() {
 	};
 }
 
-function BlogListItem({ slug, title, subtitle, date, content }) {
+function BlogListItem({ slug }) {
 	return (
-		<div className="space-y-1 w-3/5 border border-black-100 p-4 shadow hover:shadow-md rounded transition duration-200 ease-in">
-			<div className="text-gray-600 text-sm">{format(parseISO(date), 'MMMM do, uuu')}</div>
-			<div>
-				<Link href={`/blog/${slug}`}>
-					<a className="text-2xl font-bold">{title}</a>
-				</Link>
-			</div>
-			<div class="text-lg text-gray-600">{subtitle}</div>
-			{/*<div>{content.substr(0, 300)}</div>*/}
+		<div>
+			<Link href={`/blog/${slug}`}>
+				<img src={`../images/${slug}.jpg`} className="h-40 lg:h-60 mx-auto cursor-pointer shadow-md hover:shadow-lg transition duration-900 ease-in"></img>
+			</Link>
 		</div>
 	)
 }
-
-
-
-

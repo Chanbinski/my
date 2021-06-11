@@ -16,7 +16,7 @@ export default function BlogPage({ title, subtitle, date, content }) {
       </Head>
       <main>
         <div className="flex flex-col items-center pt-28 pb-28">
-          <div className="w-1/2">
+          <div className="w-4/5 lg:w-1/2">
             <div className="mb-10 space-y-4">
               <div>
                 <div className="text-gray-600 text-md">
