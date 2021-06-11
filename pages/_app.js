@@ -12,10 +12,8 @@ function MyApp({ Component, pageProps }) {
     </Head>
 
     <Navbar />
-    <Component {...pageProps} />
-    <div className="relative">
-      <Footer className="absolute bottom-0"/>
-    </div>
+    <Component {...pageProps} className="min-h-screen" />
+    <Footer/>
   </div>
   )
 }

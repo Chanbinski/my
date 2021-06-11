@@ -10,9 +10,9 @@ export default function Home({ posts }) {
 			<Head>
         		<title>Chanbin's Blog</title>
       		</Head>
-			<div className="h-screen grid grid-cols-3 lg:grid-cols-5 p-14">
+			<div className="grid grid-cols-3 h-screen lg:grid-cols-5 p-14 gap-4">
 				{posts.map((item) => (
-					<BlogListItem key={item.slug} {...item} />
+					<BlogListItem className="flex-grow" key={item.slug} {...item} />
 				))}
 		  	</div>
 		</div>
@@ -37,7 +37,7 @@ function BlogListItem({ slug }) {
 	return (
 		<div>
 			<Link href={`/blog/${slug}`}>
-				<img src={`../images/${slug}.jpg`} className="h-40 lg:h-60 mx-auto cursor-pointer shadow-md hover:shadow-lg transition duration-900 ease-in"></img>
+				<img src={`../images/${slug}.jpg`} className="min-h-20 max-h-40 lg:h-60 max-h-60 mx-auto cursor-pointer shadow-md hover:shadow-lg transition duration-900 ease-in"></img>
 			</Link>
 		</div>
 	)
