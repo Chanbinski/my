@@ -8,28 +8,28 @@ export default function Home({ posts }) {
 	return (
 		<div>
 			<Head>
-        		<title>Chanbin's Blog</title>
-      		</Head>
+				<title>Chanbin's Blog</title>
+			</Head>
 			<div className="grid grid-cols-3 h-screen lg:grid-cols-5 p-14 gap-4">
 				{posts.map((item) => (
 					<BlogListItem className="flex-grow" key={item.slug} {...item} />
 				))}
-		  	</div>
+			</div>
 		</div>
 	);
-  }
+}
 
 export async function getStaticProps() {
 	const allPosts = getAllPosts();
 	return {
-	  props: {
-		posts: allPosts.map(({ data, content, slug }) => ({
-		  ...data,
-		  date: data.date.toISOString(),
-		  content,
-		  slug,
-		})),
-	  },
+		props: {
+			posts: allPosts.map(({ data, content, slug }) => ({
+				...data,
+				date: data.date.toISOString(),
+				content,
+				slug,
+			})),
+		},
 	};
 }
 

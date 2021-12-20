@@ -2,8 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
+/**
 @layer base {
   a {
     @apply text-green-600 hover:text-green-400;
   }
-}
+}**/

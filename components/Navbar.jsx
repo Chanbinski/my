@@ -10,9 +10,9 @@ export const Navbar = () => {
 
   return (
     <>
-      <nav className='flex items-center flex-wrap bg-green-600 p-2'>
+      <nav className='flex flex-row border-b border-gray-300 items-center flex-wrap p-2 w-3/5'>
         <button
-          className=' inline-flex p-3 hover:bg-green-600 rounded lg:hidden text-white ml-auto hover:text-white outline-none'
+          className='inline-flex p-3 rounded lg:hidden text-gray ml-auto outline-none'
           onClick={handleClick}
         >
           <svg
@@ -32,19 +32,23 @@ export const Navbar = () => {
         </button>
         {/*Note that in this div we will use a ternary operator to decide whether or not to display the content of the div  */}
         <div
-          className={`${
-            active ? '' : 'hidden'
-          }   w-full lg:inline-flex lg:flex-grow lg:w-auto`}
+          className={`${active ? '' : 'hidden'
+            }   w-full lg:inline-flex lg:flex-grow lg:w-auto`}
         >
           <div className='lg:inline-flex lg:flex-row lg:ml-auto lg:w-auto w-full lg:items-center items-start  flex flex-col lg:h-auto'>
             <Link href='/'>
-              <a className='lg:inline-flex lg:w-auto w-full px-3 py-1 rounded text-white items-center justify-center hover:text-green-200'>
+              <a className='lg:inline-flex lg:w-auto w-full px-3 py-1 rounded text-gray-500 items-center justify-center'>
                 Home
               </a>
             </Link>
             <Link href='/blog'>
-              <a className='lg:inline-flex lg:w-auto w-full px-3 py-1 rounded text-white items-center justify-center hover:text-green-200'>
+              <a className='lg:inline-flex lg:w-auto w-full px-3 py-1 rounded text-gray-500 items-center justify-center'>
                 Blog
+              </a>
+            </Link>
+            <Link href='/projects'>
+              <a className='lg:inline-flex lg:w-auto w-full px-3 py-1 rounded text-gray-500 items-center justify-center'>
+                Projects
               </a>
             </Link>
           </div>

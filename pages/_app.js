@@ -6,15 +6,16 @@ import { Footer } from '../components/Footer';
 
 function MyApp({ Component, pageProps }) {
   return (
-  <div>
-    <Head>
+    <div>
+      <Head>
         <link rel="icon" href="/favicon.png" />
-    </Head>
+      </Head>
 
-    <Navbar />
-    <Component {...pageProps} className="min-h-screen" />
-    <Footer/>
-  </div>
+      <div className="flex justify-center align-center">
+        <Navbar />
+      </div>
+      <Component {...pageProps} className="min-h-screen" />
+    </div>
   )
 }
 
