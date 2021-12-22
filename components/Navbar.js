@@ -1,11 +1,10 @@
 import Link from 'next/link';
-import { useState } from 'react';
 
 export const Navbar = () => {
 
   return (
     <>
-      <nav className='flex flex-row justify-end items-center h-16 w-full sm:w-1/2'>
+      <div className='flex flex-row justify-end items-center h-16 w-full sm:w-1/2'>
         <div>
           <Link href='/'>
             <a className='mr-5 text-gray-500'>
@@ -23,7 +22,8 @@ export const Navbar = () => {
             </a>
           </Link>
         </div>
-      </nav>
+      </div>
     </>
   );
 };
+
