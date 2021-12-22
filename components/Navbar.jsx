@@ -10,7 +10,7 @@ export const Navbar = () => {
 
   return (
     <>
-      <nav className='flex flex-row items-center flex-wrap p-3 w-full sm:w-3/5'>
+      <nav className='flex flex-row items-center p-3 flex-wrap w-3/5'>
         <button
           className='inline-flex p-3 rounded lg:hidden text-gray ml-auto outline-none'
           onClick={handleClick}
