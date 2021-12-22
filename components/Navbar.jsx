@@ -10,7 +10,7 @@ export const Navbar = () => {
 
   return (
     <>
-      <nav className='flex flex-row justify-end items-center p-3 h-16 w-full sm:w-1/2'>
+      <nav className='flex flex-row justify-end items-center h-16 w-full sm:w-1/2'>
         <div className=''>
           <Link href='/'>
             <a className='mr-5 text-gray-500'>

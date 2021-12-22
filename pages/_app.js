@@ -10,7 +10,7 @@ function MyApp({ Component, pageProps }) {
       <Head>
         <link rel="icon" href="/favicon.png" />
       </Head>
-      <div className="flex justify-center align-center">
+      <div className="flex flex-row justify-center items-center">
         <Navbar />
       </div>
       <Component {...pageProps} className="min-h-screen" />

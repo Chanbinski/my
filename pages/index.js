@@ -10,7 +10,7 @@ export default function Home() {
       <Head>
         <title>Chanbin Park</title>
       </Head>
-      <div className="mt-36 flex flex-col justify-center items-center space-y-5">
+      <div className="mt-10 sm:mt-20 flex flex-col justify-center items-center space-y-5">
         <img
           src="images/header-image.jpg"
           className="justify-center rounded-full w-2/6 sm:w-40"
