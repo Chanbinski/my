@@ -25,7 +25,7 @@ export default function BlogPage({ title, author, subtitle, date, content, blog 
               </div>
 
               <h2 className="text-5xl font-bold">{title}</h2>
-              <h2 className="text-xl mr-auto">by {author}</h2>
+              {author != 'none' ? <h2 className="text-xl mr-auto">by {author}</h2> : <div></div>}
               <h2 className="text-xl text-gray-600">{subtitle}</h2>
             </div>
             <div className="prose text-lg">
