@@ -1,5 +1,7 @@
 ---
-title: How to Take Smart Notes (Sonke Ahrens)
+tag: Book
+title: How to Take Smart Notes
+author: Sonke Ahrens
 subtitle: You're probably reading and writing in the wrong way.
 date: 2021-05-18
 ---

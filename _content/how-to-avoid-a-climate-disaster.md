@@ -1,5 +1,7 @@
 ---
-title: How to Avoid a Climate Disaster (Bill Gates)
+tag: Book
+title: How to Avoid a Climate Disaster
+author: Bill Gates
 subtitle: The climate clock is ticking.
 date: 2021-05-21
 ---
@@ -14,7 +16,7 @@ At the heart of this threat, there is the infamous greenhouse gas. Greenhouse ga
 
 ## What Should We Do?
 
-Three evident, but important steps to avoid this threat are the following.
+Three evident but important steps to avoid this threat are the following.
 
 1. We need to emit zero greenhouse gases.
 2. We need to install existing solutions efficiently.

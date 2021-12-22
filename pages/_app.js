@@ -10,7 +10,6 @@ function MyApp({ Component, pageProps }) {
       <Head>
         <link rel="icon" href="/favicon.png" />
       </Head>
-
       <div className="flex justify-center align-center">
         <Navbar />
       </div>
