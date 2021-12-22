@@ -2,7 +2,6 @@ import Link from 'next/link'
 import Head from "next/head";
 import '../styles/globals.css'
 import { Navbar } from '../components/Navbar';
-import { Footer } from '../components/Footer';
 
 function MyApp({ Component, pageProps }) {
   return (
@@ -13,7 +12,7 @@ function MyApp({ Component, pageProps }) {
       <div className="flex flex-row justify-center items-center">
         <Navbar />
       </div>
-      <Component {...pageProps} className="min-h-screen" />
+      <Component {...pageProps} />
     </div>
   )
 }
