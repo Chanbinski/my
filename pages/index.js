@@ -1,6 +1,5 @@
 import Link from "next/link";
 import Head from "next/head"
-import 'tailwindcss/tailwind.css'
 
 const name = "Chanbin Park";
 
