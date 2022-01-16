@@ -16,7 +16,7 @@ export default function BlogPage({ title, author, subtitle, date, content, blog 
       </Head>
       <main>
         <div className="flex flex-col items-center pt-10 sm:pt-28 pb-28">
-          <div className="w-4/5 lg:w-1/2">
+          <div className="w-5/6 sm:w-1/2">
             <div className="mb-10 space-y-4">
               <div>
                 <div className="text-gray-600 text-md">
@@ -27,7 +27,7 @@ export default function BlogPage({ title, author, subtitle, date, content, blog 
               {author != 'none' ? <h2 className="text-lg mr-auto text-gray-600">{author}</h2> : <div></div>}
               <h2 className="text-xl text-gray-600">{subtitle}</h2>
             </div>
-            <div className="prose text-lg">
+            <div className="prose text-md sm:text-lg">
               <MDXRemote {...content} />
             </div>
           </div>
