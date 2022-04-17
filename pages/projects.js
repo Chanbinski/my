@@ -12,6 +12,13 @@ export default function Projects() {
                     Projects
                 </div>
                 <div className="mt-10 grid sm:grid-cols-2 gap-6 w-full sm:w-1/2">
+                    <div className="bg-green-50 border border-green-50 p-4 ml-4 mr-4 sm:ml-0 sm:mr-0 rounded-lg gap-y-4">
+                        <p className="text-sm text-green-700">Spring 2022</p>
+                        <p className="mt-1 text-xl text-green-900 font-bold">
+                            <a href="https://bearwear.vercel.app/">Bearwear</a>
+                        </p>
+                        <p className="mt-3 text-base text-green-800">A digital closet where users can manage their clothings. </p>
+                    </div>
                     <div className="bg-blue-50 border border-blue-50 p-4 ml-4 mr-4 sm:ml-0 sm:mr-0 rounded-lg gap-y-4">
                         <p className="text-sm text-blue-700">Fall 2021</p>
                         <p className="mt-1 text-xl text-blue-900 font-bold">
